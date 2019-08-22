@@ -41,8 +41,7 @@ parser.add_option("--passlist", dest="passlist",help="Enter the password list di
 parser.add_option("--website", dest="website",help="choose a website")
 (options, args) = parser.parse_args()
 
-
-
+CHROME_DVR_DIR='C:\webdriver\chromedriver_win32'
 
 def wizard():
     print (banner)
